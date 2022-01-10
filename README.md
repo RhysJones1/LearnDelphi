@@ -49,7 +49,7 @@ Pascal is Algol-based language and includes many constructs of Algol. Algol 60 i
 * In 1986, Apple Computer released the first Object Pascal implementation, and in 1993, the Pascal Standards Committee published an Object-Oriented Extension to Pascal.
  
 
-## Why to use Pascal?
+## Why use Pascal?
 
 Pascal allows the programmers to define complex structured data types and build dynamic and recursive data structures, such as lists, trees and graphs. Pascal offers features like records, enumerations, subranges, dynamically allocated variables with associated pointers and sets. 
 
