@@ -1,4 +1,23 @@
 # LearnPascal
+![image](https://user-images.githubusercontent.com/91537105/148800865-b8d361ed-2fb9-4f78-af62-5a7513030cb3.png)
+
+
+## How to use this document
+
+This readme file contains my notes on the fundamental concepts of the Pascal Programming Language
+
+Within the LearnPascal repository, there are files which contain my source code around putting Pascal into practice. 
+
+Fundamentals 1 - 3 contain the basics such as printing messages, arthmetic, arrays, conditionals, loops, functions, procedures etc.
+
+There will be further programs added in due course which puts the fundamentals into practice such as a Mortgage Calculator.
+
+The aim is to ideally create:
+
+* 3-5 Basic Programs
+* 2-3 Medium Difficulty Programs 
+* 1 Difficult Program
+
 ## Introduction
 
 Pascal is a procedural, general purpose programming language, designed in 1968 and published in 1970 by Niklaus Wirth and named in honour of the French mathematician and philosopher Blaise Pascal. Pascal runs on a variety of platforms, such as Windows, Mac OS, and various versions of UNIX/Linux.
@@ -45,3 +64,29 @@ Pascal allows nested procedure definitions to any level of depth. This truly pro
 * Apple Lisa
 * Various PC Games
 * Embedded Systems
+
+## Program Structure
+
+The following is a review of a bare minimum Pascal program structure:
+
+### Pascal Program Structure 
+
+A Pascal program basically consists of the following parts −
+
+* Program name
+* Uses command
+* Type declarations
+* Constant declarations
+* Variables declarations
+* Functions declarations
+* Procedures declarations
+* Main program block
+* Statements and Expressions within each block
+* Comments
+ 
+Every pascal program generally has a heading statement, a declaration and an execution part strictly in that order. 
+
+Following format shows the basic syntax for a Pascal program −
+
+![image](https://user-images.githubusercontent.com/91537105/148799069-1c684701-2990-4e9f-8ed3-7be0b0e58953.png)
+
