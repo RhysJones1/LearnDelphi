@@ -22,8 +22,6 @@ The aim is to ideally create:
 
 Pascal is a procedural, general purpose programming language, designed in 1968 and published in 1970 by Niklaus Wirth and named in honour of the French mathematician and philosopher Blaise Pascal. Pascal runs on a variety of platforms, such as Windows, Mac OS, and various versions of UNIX/Linux.
 
-Pascal is Algol-based language and includes many constructs of Algol. Algol 60 is a subset of Pascal. Pascal offers several data types and programming structures. It is easy to understand and maintain the Pascal programs.
-
 ## Pascal has grown in popularity in the teaching and academics arena for various reasons:
 
 * Easy to learn.
