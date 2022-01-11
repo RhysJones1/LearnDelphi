@@ -100,31 +100,31 @@ A variable definition is put in a block beginning with a var keyword, followed b
 
 Pascal variables are declared outside the code-body of the function which means they are not declared within the begin and end pairs, but they are declared after the definition of the procedure/function and before the begin keyword. For global variables, they are defined after the program header.
 
-## Functions/Procedures
+### Functions/Procedures
 
 In Pascal, a procedure is set of instructions to be executed, **with no return value** and a function is a procedure **with a return value**. The definition of function/procedures will be as follows:
 
 ![image](https://user-images.githubusercontent.com/91537105/148911789-44dce171-9327-4ee9-962e-752c4812dce9.png)
 ![image](https://user-images.githubusercontent.com/91537105/148911841-eefd29c5-19b7-49a2-abef-5caa5fde7982.png)
 
-## Comments
+### Comments
 
 // Can be used for single line comments 
 {......} can be used for multiline
 
-## Case Sensitivity 
+### Case Sensitivity 
 
 Pascal is a case non-sensitive language, which means you can write your variables, functions and procedure in either case. Like variables A_Variable, a_variable and A_VARIABLE have same meaning in Pascal.
 
 That being said, it's always good practice to use the same variable name to avoid confusion!
 
-## Pascal Statements
+### Pascal Statements
 
 Pascal programs are made of statements. Each statement specifies a definite job of the program. These jobs could be declaration, assignment, reading data, writing data, taking logical decisions, transferring program flow control, etc.
 
 ![image](https://user-images.githubusercontent.com/91537105/148912888-0bb61ef5-3093-4372-ae1b-ce4d4177ea5c.png)
 
-## Reserved Words in Pascal
+### Reserved Words in Pascal
 
 The statements in Pascal are designed with some specific Pascal words, which are called the reserved words. For example, the words, program, input, output, var, real, begin, readline, writeline and end are all reserved words.
 
@@ -132,8 +132,11 @@ Following is a list of reserved words available in Pascal.
 
 ![image](https://user-images.githubusercontent.com/91537105/148913390-0cb0b00d-c5fa-4276-8935-21541e71c0d3.png)
 
+## Data Types
 
+Very similar set of data types to other programming languages, they are just characterised slightly differently. Integer, real, Boolean and character types are referred as standard data types. Data types can be categorized as scalar, pointer and structured data types. Examples of scalar data types are integer, real, Boolean, character, subrange and enumerated. Structured data types are made of the scalar types; for example, arrays, records, files and sets.
 
+![image](https://user-images.githubusercontent.com/91537105/148914309-faa578fa-95a7-45ca-998b-5f2831d8b992.png)
 
 
 
