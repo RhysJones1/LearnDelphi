@@ -179,3 +179,30 @@ Subrange types can be created from a subset of an already defined enumerated typ
 
 ## Variables
 
+A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in Pascal has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.
+
+The name of a variable can be composed of letters, digits, and the underscore character. It must begin with either a letter or an underscore. Pascal is not case-sensitive, so uppercase and lowercase letters mean same here. Based on the basic types explained in previous chapter, there will be following basic variable types −
+
+![image](https://user-images.githubusercontent.com/91537105/148935586-eadcaad7-0140-44e8-a6fa-7db96a94d6d4.png)
+
+Pascal programming language also allows defining various other types of variables such as Pointers, Arrays, Records, Sets, and Files, etc.
+
+### Variable Declaration in Pascal
+
+All variables must be declared before we use them in Pascal program. All variable declarations are followed by the var keyword. A declaration specifies a list of variables, followed by a colon (:) and the type. Syntax of variable declaration is −
+
+![image](https://user-images.githubusercontent.com/91537105/148935894-f52068fe-af76-41b6-b46a-580dd4a8ed83.png)
+
+Here, type must be a valid Pascal data type including character, integer, real, boolean, or any user-defined data type, etc., and variable_list may consist of one or more identifier names separated by commas. Some valid variable declarations are shown here −
+
+![image](https://user-images.githubusercontent.com/91537105/148935987-44ba537b-513f-4650-a609-293e07a47894.png)
+
+We have previously discussed that Pascal allows declaring a type. A type can be identified by a name or identifier. This type can be used to define variables of that type. For example,
+
+![image](https://user-images.githubusercontent.com/91537105/148936603-6e29e99a-6c50-4073-a0ab-0680ad8130ae.png)
+
+Now, the types so defined can be used in variable declarations −
+
+![image](https://user-images.githubusercontent.com/91537105/148936701-8e266a80-6279-405c-badd-da66c47af82b.png)
+
+**Please note the difference between type declaration and var declaration.** **Type declaration indicates the category or class of the types such as integer, real, etc.,** whereas the **variable specification indicates the type of values a variable may take**. Most importantly, the **variable name refers to the memory location where the value of the variable is going to be stored. This is not so with the type declaration.**
