@@ -177,5 +177,5 @@ Subrange types can be created from a subset of an already defined enumerated typ
 
 ![image](https://user-images.githubusercontent.com/91537105/148934706-45144bd2-9e80-484e-b8f5-eb2ac7c93efb.png)
 
-
+## Variables
 
