@@ -235,4 +235,15 @@ Which provides the following output:
 
 ### Subrange Variables
 
+Examples of subrange variables are:
+
+![image](https://user-images.githubusercontent.com/91537105/148942879-5ce66755-d38e-486d-ac9d-7454f081ffa6.png)
+
+The following program illustrates the concept:
+
+![image](https://user-images.githubusercontent.com/91537105/148943007-067c59e9-6609-4627-aeda-d948616c6c83.png)
+The output would be:
+![image](https://user-images.githubusercontent.com/91537105/148943111-11b24e5c-639b-44e7-8327-25a21a787390.png)
+
+
 
