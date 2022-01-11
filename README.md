@@ -221,7 +221,18 @@ The output would look like this:
 
 ![image](https://user-images.githubusercontent.com/91537105/148938265-ca64e9ff-7b71-4de8-92c2-1121dbcfe42e.png)
 
+### Enumerated Variables
 
+We have reviewed how simply variable types like integer or boolean, here we are discussion enumerate types. When you have declared an enumerated type, you can declare variables of that type. For example, 
 
+![image](https://user-images.githubusercontent.com/91537105/148942122-948be1d3-3157-45fc-a405-0701587df66a.png)
+
+The following example illustrates the concept −
+
+![image](https://user-images.githubusercontent.com/91537105/148942225-98031d5b-75f6-4f34-a502-e21004a54c81.png)
+
+![image](https://user-images.githubusercontent.com/91537105/148942297-2f121af7-ed5c-4fb9-8c61-db25df23d34b.png)
+
+### Subrange Variables
 
 
