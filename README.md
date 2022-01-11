@@ -205,4 +205,23 @@ Now, the types so defined can be used in variable declarations −
 
 ![image](https://user-images.githubusercontent.com/91537105/148936701-8e266a80-6279-405c-badd-da66c47af82b.png)
 
-**Please note the difference between type declaration and var declaration.** **Type declaration indicates the category or class of the types such as integer, real, etc.,** whereas the **variable specification indicates the type of values a variable may take**. Most importantly, the **variable name refers to the memory location where the value of the variable is going to be stored. This is not so with the type declaration.**
+Please note the difference between type declaration and var declaration. **Type declaration indicates the category or class of the types such as integer, real, etc.,** whereas the **variable specification indicates the type of values a variable may take**. Most importantly, the **variable name refers to the memory location where the value of the variable is going to be stored. This is not so with the type declaration.**
+
+### Variable Initialization in Pascal
+
+Variables are assigned a value with a colon and the equal sign, followed by a constant expression. 
+
+![image](https://user-images.githubusercontent.com/91537105/148937807-5291dd12-013a-4f88-b020-874923f9ad05.png)
+
+A further example from start to finish would look like this:
+
+![image](https://user-images.githubusercontent.com/91537105/148937967-155f5467-3ecf-41d5-90dc-3e66b9891956.png)
+
+The output would look like this:
+
+![image](https://user-images.githubusercontent.com/91537105/148938265-ca64e9ff-7b71-4de8-92c2-1121dbcfe42e.png)
+
+
+
+
+
