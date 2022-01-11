@@ -251,3 +251,28 @@ The output would be:
 
 ## Constants
 
+A constant is an entity that remains unchanged during program execution. Pascal allows only constants of the following types to be declared −
+
+* Ordinal types
+* Set types
+* Pointer types (but the only allowed value is Nil).
+* Real types
+* Char
+* String
+
+### Declaring Constants
+Syntax for declaring constants is as follows −
+
+![image](https://user-images.githubusercontent.com/91537105/148945193-48d1f07a-78f8-43a1-bab2-d6d4ca82992f.png)
+
+![image](https://user-images.githubusercontent.com/91537105/148945290-4acc151a-ac8d-4937-845f-b2488ab5956a.png)
+
+The following example illustrates the concept −
+
+![image](https://user-images.githubusercontent.com/91537105/148945428-ceca3a00-298f-4060-b0fa-0f0296b52632.png)
+
+The output is:
+
+![image](https://user-images.githubusercontent.com/91537105/148945559-f8d98f24-c580-488c-bf55-ccc60de370d6.png)
+
+
