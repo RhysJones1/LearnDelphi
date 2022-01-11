@@ -155,3 +155,17 @@ Following table gives you details about standard integer types with its storage 
 Constants are handy when you want to fix a value and prevent it from being changed. It also makes it easier if you want to change it in future as you just change it in a single location. They are declared after types and before variables.
 
 ![image](https://user-images.githubusercontent.com/91537105/148919046-7e9e21cd-2a59-4202-ba03-5e11f8527294.png)
+
+![image](https://user-images.githubusercontent.com/91537105/148919287-19467d80-ec4d-4e10-a336-65cd4e1fd1be.png)
+
+Remember, **all constant declarations must be given before the variable declaration.**
+
+### Enumerated Types
+
+Enumerated data types are user-defined data types. They allow values to be specified in a list. Only assignment operators and relational operators are permitted on enumerated data type.
+
+![image](https://user-images.githubusercontent.com/91537105/148920626-73270964-ec24-4023-851a-1ced51f643d8.png)
+
+The order in which the items are listed in the domain of an enumerated type defines the order of the items. For example, in the enumerated type SUMMER, April comes before May, May comes before June, and so on. The domain of enumerated type identifiers cannot consist of numeric or character constants.
+
+
