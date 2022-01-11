@@ -90,3 +90,41 @@ Following format shows the basic syntax for a Pascal program −
 
 ![image](https://user-images.githubusercontent.com/91537105/148799069-1c684701-2990-4e9f-8ed3-7be0b0e58953.png)
 
+## Basic Syntax
+
+### Variables
+
+A variable definition is put in a block beginning with a var keyword, followed by definitions of the variables as follows:
+
+![image](https://user-images.githubusercontent.com/91537105/148911163-039a3913-12af-45cd-9bd3-ecb80339fb0f.png)
+
+Pascal variables are declared outside the code-body of the function which means they are not declared within the begin and end pairs, but they are declared after the definition of the procedure/function and before the begin keyword. For global variables, they are defined after the program header.
+
+## Functions/Procedures
+
+In Pascal, a procedure is set of instructions to be executed, **with no return value** and a function is a procedure **with a return value**. The definition of function/procedures will be as follows:
+
+![image](https://user-images.githubusercontent.com/91537105/148911789-44dce171-9327-4ee9-962e-752c4812dce9.png)
+![image](https://user-images.githubusercontent.com/91537105/148911841-eefd29c5-19b7-49a2-abef-5caa5fde7982.png)
+
+## Comments
+
+// Can be used for single line comments 
+{......} can be used for multiline
+
+## Case Sensitivity 
+
+Pascal is a case non-sensitive language, which means you can write your variables, functions and procedure in either case. Like variables A_Variable, a_variable and A_VARIABLE have same meaning in Pascal.
+
+That being said, it's always good practice to use the same variable name to avoid confusion!
+
+## Pascal Statements
+
+Pascal programs are made of statements. Each statement specifies a definite job of the program. These jobs could be declaration, assignment, reading data, writing data, taking logical decisions, transferring program flow control, etc.
+
+![image](https://user-images.githubusercontent.com/91537105/148912888-0bb61ef5-3093-4372-ae1b-ce4d4177ea5c.png)
+
+
+
+
+
