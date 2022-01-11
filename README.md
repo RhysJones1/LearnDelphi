@@ -166,4 +166,16 @@ Enumerated data types are user-defined data types. They allow values to be speci
 
 The order in which the items are listed in the domain of an enumerated type defines the order of the items. For example, in the enumerated type SUMMER, April comes before May, May comes before June, and so on. The domain of enumerated type identifiers cannot consist of numeric or character constants.
 
+### Subrange Types
+Subrange types allow a variable to assume values that lie within a certain range. For example, if the age of voters should lie between 18 to 100 years, a variable named age could be declared as −
+
+![image](https://user-images.githubusercontent.com/91537105/148934450-0ddc16c4-6694-4e2e-a468-2f27666d315d.png)
+
+![image](https://user-images.githubusercontent.com/91537105/148934599-a7b83703-be59-4e1e-ba09-4b80fae8a7a5.png)
+
+Subrange types can be created from a subset of an already defined enumerated type, For example −
+
+![image](https://user-images.githubusercontent.com/91537105/148934706-45144bd2-9e80-484e-b8f5-eb2ac7c93efb.png)
+
+
 
