@@ -124,6 +124,15 @@ Pascal programs are made of statements. Each statement specifies a definite job 
 
 ![image](https://user-images.githubusercontent.com/91537105/148912888-0bb61ef5-3093-4372-ae1b-ce4d4177ea5c.png)
 
+## Reserved Words in Pascal
+
+The statements in Pascal are designed with some specific Pascal words, which are called the reserved words. For example, the words, program, input, output, var, real, begin, readline, writeline and end are all reserved words.
+
+Following is a list of reserved words available in Pascal.
+
+![image](https://user-images.githubusercontent.com/91537105/148913390-0cb0b00d-c5fa-4276-8935-21541e71c0d3.png)
+
+
 
 
 
