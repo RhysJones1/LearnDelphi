@@ -138,5 +138,20 @@ Very similar set of data types to other programming languages, they are just cha
 
 ![image](https://user-images.githubusercontent.com/91537105/148914309-faa578fa-95a7-45ca-998b-5f2831d8b992.png)
 
+### Type Declarations
 
+If you remember from the program structure above, we declare our data types after uses but before declaring our variables. As you will see below, we can declare multiple variables on a single line:
 
+![image](https://user-images.githubusercontent.com/91537105/148918344-101e05d1-95d4-46b1-8728-d3715175ea8f.png)
+
+### Integer Types
+
+Following table gives you details about standard integer types with its storage sizes and value ranges used in Object Pascal
+
+![image](https://user-images.githubusercontent.com/91537105/148918562-925020d7-5887-4f64-b03e-bbfdfe89b9df.png)
+
+### Constants
+
+Constants are handy when you want to fix a value and prevent it from being changed. It also makes it easier if you want to change it in future as you just change it in a single location. They are declared after types and before variables.
+
+![image](https://user-images.githubusercontent.com/91537105/148919046-7e9e21cd-2a59-4202-ba03-5e11f8527294.png)
