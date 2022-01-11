@@ -230,7 +230,9 @@ We have reviewed how simply variable types like integer or boolean, here we are 
 The following example illustrates the concept −
 
 ![image](https://user-images.githubusercontent.com/91537105/148942225-98031d5b-75f6-4f34-a502-e21004a54c81.png)
+
 Which provides the following output:
+
 ![image](https://user-images.githubusercontent.com/91537105/148942297-2f121af7-ed5c-4fb9-8c61-db25df23d34b.png)
 
 ### Subrange Variables
