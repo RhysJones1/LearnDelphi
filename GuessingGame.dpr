@@ -1,3 +1,4 @@
+// Simple guessing game where the user picks a number between 1 - 10 until they get it right
 program GuessingGame;
 
 {$APPTYPE CONSOLE}
