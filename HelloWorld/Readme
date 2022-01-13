@@ -1,0 +1,5 @@
+Exploring Delphi
+
+Delphi comes with built in functionality which allows you to not only create programs but to also quickly create user interfaces to go along with your program.
+
+To explore this feature, I started with a Hello World program where the user clicks a button and the form them displays 'Hello World'
