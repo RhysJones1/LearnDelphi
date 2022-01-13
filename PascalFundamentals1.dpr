@@ -12,7 +12,8 @@ uses
 
 type
 
-// This defines a record with music album info
+// This defines a record with music album info.
+// This is useful as it allows you to combine data items of different kinds.
 Albums = record
    Title: String;
    Sold: Integer;
@@ -133,7 +134,7 @@ begin
    GetSum3(1,2,3,W);
    Writeln('Sum : ', W);
 
-   // Local and Global Variables
+   // Local and Global Variables. Demonstrates how variables behave locally and globally
    W := 2;
    Writeln('Outside PrintNum W = ', W);
    PrintNum;
@@ -228,7 +229,7 @@ begin
 
    // ----- FILE IO -----
    // You can write any type of data to a file and retrieve it
-   // I'll store text
+   // store text: one of the most common actions
 
    // Open a file for writing, write and close
    AssignFile(MyFile, 'myfile.txt');
