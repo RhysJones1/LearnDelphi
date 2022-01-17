@@ -275,4 +275,63 @@ The output is:
 
 ![image](https://user-images.githubusercontent.com/91537105/148945559-f8d98f24-c580-488c-bf55-ccc60de370d6.png)
 
+## Operators
+
+An operator is a symbol that tells the compiler to perform specific mathematical or logical manipulations. Pascal allows the following types of operators −
+* Arithmetic
+* Relational
+* Boolean
+* Bit
+* Set
+* String
+
+### Arithmetic Operators:
+
+Following table shows all the arithmetic operators supported by Pascal. Assume variable A holds 10 and variable B holds 20, then:
+
+![image](https://user-images.githubusercontent.com/91537105/149752006-ba745b2d-2ac8-43a0-8bc3-2b5c4de4b7c7.png)
+
+### Relational Operators:
+
+Following table shows all the relational operators supported by Pascal. Assume variable A holds 10 and variable B holds 20, then:
+
+![image](https://user-images.githubusercontent.com/91537105/149752276-a3697aa4-d803-4668-8786-b63a77b09fad.png)
+
+### Boolean Operators
+
+Following table shows all the Boolean operators supported by Pascal language. All these operators work on Boolean operands and produce Boolean results. Assume variable A holds true and variable B holds false, then:
+
+![image](https://user-images.githubusercontent.com/91537105/149752427-e67e0f1e-d8eb-40ef-8acc-5787a9ad09a6.png)
+
+### Operator Precedence
+
+Operator precedence determines the grouping of terms in an expression. This affects how an expression is evaluated. Certain operators have higher precedence than others; for example, the multiplication operator has higher precedence than the addition operator.
+
+For example x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * has higher precedence than +, so it first gets multiplied with 3*2 and then adds into 7.
+
+Here, operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom. Within an expression, higher precedence operators will be evaluated first.
+
+![image](https://user-images.githubusercontent.com/91537105/149752889-1575deeb-8017-44cd-8cb6-b34f732f5b1a.png)
+
+## Decision Making in Pascal
+
+Decision making structures require that the programmer specify one or more conditions to be evaluated or tested by the program, along with a statement or statements to be executed if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false.
+
+Following is the general form of a typical decision making structure found in most of the programming languages:
+
+![image](https://user-images.githubusercontent.com/91537105/149753098-b9de2854-8732-4fb4-8308-84999961d661.png)
+
+Pascal programming language provides the following types of decision making statements:
+
+![image](https://user-images.githubusercontent.com/91537105/149753196-8ef6011c-2df8-4eee-80b3-62dfa5fdb16f.png)
+
+**Further information on Decision Making:**
+* https://www.tutorialspoint.com/pascal/pascal_if_then_statement.htm
+* https://www.tutorialspoint.com/pascal/pascal_if_then_else_statement.htm
+* https://www.tutorialspoint.com/pascal/pascal_nested_if_statement.htm
+
+
+
+
+
 
