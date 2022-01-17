@@ -366,7 +366,7 @@ Loop control statements change execution from its normal sequence. When executio
 Pascal provides to types of sub programs:
 
 * Functions: These return values
-* Procedures: These do not return values directly
+* Procedures: These do not return values directly however they can pass values by reference (See Below)
 
 ### Functions
 
@@ -390,3 +390,18 @@ A function definition in Pascal consists of a **function header, local declarati
 The following example shows how a function is defined, declared and called:
 
 ![image](https://user-images.githubusercontent.com/91537105/149771133-3b785ad3-f91a-4c4c-949d-d688bb390212.png)
+
+## Procedures
+
+Procedures are subprograms that, instead of returning a single value, allow to obtain a group of results.
+
+A procedure definition in Pascal consists of a header, local declarations and a body of the procedure. The procedure header consists of the keyword procedure and a name given to the procedure. Here are all the parts of a procedure:
+
+* Arguments − The argument(s) establish the linkage between the calling program and the procedure identifiers and also called the formal parameters. Rules for arguments in procedures are same as that for the functions.
+* Local declarations − Local declarations refer to the declarations for labels, constants, variables, functions and procedures, which are applicable to the body of the procedure only.
+* Procedure Body − The procedure body contains a collection of statements that define what the procedure does. It should always be enclosed between the reserved words begin and end. It is the part of a procedure where all computations are done.
+
+Following is the source code for a procedure called findMin(). This procedure takes 4 parameters x, y, z and m and stores the minimum among the first three variables in the variable named m. The variable m is passed by reference:
+
+
+
