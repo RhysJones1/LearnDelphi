@@ -330,6 +330,37 @@ Pascal programming language provides the following types of decision making stat
 * https://www.tutorialspoint.com/pascal/pascal_if_then_else_statement.htm
 * https://www.tutorialspoint.com/pascal/pascal_nested_if_statement.htm
 
+## Loops
+
+There may be a situation, when you need to execute a block of code several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.
+
+Programming languages provide various control structures that allow for more complicated execution paths.
+
+A loop statement allows us to execute a statement or group of statements multiple times and following is the general form of a loop statement in most of the programming languages:
+
+![image](https://user-images.githubusercontent.com/91537105/149753653-83e69079-5a91-4fdf-81b6-d9d7a018ec92.png)
+
+Pascal programming language provides the following types of loop constructs to handle looping requirements:
+
+![image](https://user-images.githubusercontent.com/91537105/149753731-5b3623cf-cadb-4e03-9b4f-fe33b8125d51.png)
+
+**Further information on each can be found here:
+* https://www.tutorialspoint.com/pascal/pascal_while_do_loop.htm
+* https://www.tutorialspoint.com/pascal/pascal_for_do_loop.htm
+* https://www.tutorialspoint.com/pascal/pascal_repeat_until_loop.htm
+* https://www.tutorialspoint.com/pascal/pascal_nested_loops.htm
+
+### Loop Control Statements
+
+Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Pascal supports the following control statements.
+
+![image](https://user-images.githubusercontent.com/91537105/149754012-1028f809-8266-4f56-aadd-c77a21873fa7.png)
+
+**Further information on each can be found here:**
+* https://www.tutorialspoint.com/pascal/pascal_break_statement.htm
+* https://www.tutorialspoint.com/pascal/pascal_continue_statement.htm
+* https://www.tutorialspoint.com/pascal/pascal_goto_statement.htm
+
 
 
 
