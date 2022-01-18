@@ -374,25 +374,23 @@ Pascal provides to types of sub programs:
 
 ### Functions
 
-A function is a group of statements that together perform a task. Every Pascal program has at least one function, which is the program itself, and all the most trivial programs can define additional functions.
+A function is a group of statements that together perform a task. Every Pascal program has at least one function, which is the program itself, and all the most trivial programs can define additional functions. Pascal standard library provides numerous built-in functions that your program can call. For example, function AppendStr() appends two strings, function New() dynamically allocates memory to variables and many more functions.
 
-Pascal standard library provides numerous built-in functions that your program can call. For example, function AppendStr() appends two strings, function New() dynamically allocates memory to variables and many more functions.
+Functions take in parameters (not all the time), and they send back one answer. For example IntToStr returns a number as a string.
 
-A function definition in Pascal consists of a **function header, local declarations and a function body**. The function header consists of the keyword function and a name given to the function. 
+A function definition in Pascal consists of a **function header, local declarations and a function body**. 
 
 The following example shows how a function is defined, declared and called:
 
 ![image](https://user-images.githubusercontent.com/91537105/149771133-3b785ad3-f91a-4c4c-949d-d688bb390212.png)
 
-## Procedures
+### Procedures
 
 Procedures are subprograms that, instead of returning a single value, allow to obtain a group of results.
 
-A procedure definition in Pascal consists of a header, local declarations and a body of the procedure. The procedure header consists of the keyword procedure and a name given to the procedure. Here are all the parts of a procedure:
+A procedure definition in Pascal consists of a header, local declarations and a body of the procedure. 
 
-* Arguments − The argument(s) establish the linkage between the calling program and the procedure identifiers and also called the formal parameters. Rules for arguments in procedures are same as that for the functions.
-* Local declarations − Local declarations refer to the declarations for labels, constants, variables, functions and procedures, which are applicable to the body of the procedure only.
-* Procedure Body − The procedure body contains a collection of statements that define what the procedure does. It should always be enclosed between the reserved words begin and end. It is the part of a procedure where all computations are done.
+Unlike a function, a procedure doesn't need to store a value anywhere, it simply performs it.
 
 Following is the source code for a procedure called findMin(). This procedure takes 4 parameters x, y, z and m and stores the minimum among the first three variables in the variable named m. The variable m is passed by reference:
 
@@ -406,3 +404,14 @@ There are also other videos on this channel relating to Delphi Pascal which may 
 
 https://www.youtube.com/channel/UCPQG0dcSGvOP20NLcjnYTPQ
 
+## Functions in Detail
+
+### Creating your own functions
+
+* Declare your function 
+* Write the code
+* Use your function
+
+### Declare your function 
+
+Max3 function: See folder for source code
