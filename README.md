@@ -372,14 +372,12 @@ Pascal provides to types of sub programs:
 
 A function is a group of statements that together perform a task. Every Pascal program has at least one function, which is the program itself, and all the most trivial programs can define additional functions.
 
-A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.
-
 Pascal standard library provides numerous built-in functions that your program can call. For example, function AppendStr() appends two strings, function New() dynamically allocates memory to variables and many more functions.
 
 A function definition in Pascal consists of a **function header, local declarations and a function body**. The function header consists of the keyword function and a name given to the function. Here are all the parts of a function −
 
 * **Arguments** − The argument(s) establish the linkage between the calling program and the function identifiers and also called the formal parameters. A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter. This value is referred to as actual parameter or argument. The parameter list refers to the type, order, and number of parameters of a function. Use of such formal parameters is optional. These parameters may have standard data type, user-defined data type or subrange data type.
-* The formal parameters list appearing in the function statement could be simple or subscripted variables, arrays or structured variables, or subprograms.
+ * The formal parameters list appearing in the function statement could be simple or subscripted variables, arrays or structured variables, or subprograms.
 * **Return Type** − **All functions must return a value**, so all functions must be assigned a type. The function-type is the data type of the value the function returns. It may be standard, user-defined scalar or subrange type but it cannot be structured type.
 * **Local declarations** − Local declarations refer to the declarations for labels, constants, variables, functions and procedures, which are application to the body of function only.
 * **Function Body** − The function body contains a collection of statements that define what the function does. It should always be enclosed between the reserved words begin and end. It is the part of a function where all computations are done. There must be an assignment statement of the type - name := expression; in the function body that assigns a value to the function name. This value is returned as and when the function is executed. The last statement in the body must be an end statement.
@@ -403,5 +401,11 @@ A procedure definition in Pascal consists of a header, local declarations and a 
 
 Following is the source code for a procedure called findMin(). This procedure takes 4 parameters x, y, z and m and stores the minimum among the first three variables in the variable named m. The variable m is passed by reference:
 
+The following video is really helpful to outline the difference between Functions and Procedures:
 
+https://www.youtube.com/watch?v=4MeiMJoSCJk
+
+There are also other videos on this channel relating to Delphi Pascal which may be helpful:
+
+https://www.youtube.com/channel/UCPQG0dcSGvOP20NLcjnYTPQ
 
