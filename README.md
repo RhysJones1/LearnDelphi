@@ -365,8 +365,12 @@ Loop control statements change execution from its normal sequence. When executio
 
 Pascal provides to types of sub programs:
 
-* Functions: These return values
-* Procedures: These do not return values directly however they can pass values by reference (See Below)
+* Functions: These execute statements and return a value
+* Procedures: Very similar to a function, they perform tasks and execute statements but they do not return values.
+* Data: Functions and Procedures don't need data to perform in the form of a parameter. For example, you can have a function that provides a random number it needs nothing to perform this task. You could also have a procedure thta simply draws a square on a screen you don't need data to perform this task.
+* In most cases through, we will pass data through functions and procedures and these are known as parameters
+* Parameters are referred to as the variables that are defined during a function declaration or definition
+* Arguments are referred to the values that are passed within a function when the function is called.
 
 ### Functions
 
@@ -374,16 +378,7 @@ A function is a group of statements that together perform a task. Every Pascal p
 
 Pascal standard library provides numerous built-in functions that your program can call. For example, function AppendStr() appends two strings, function New() dynamically allocates memory to variables and many more functions.
 
-A function definition in Pascal consists of a **function header, local declarations and a function body**. The function header consists of the keyword function and a name given to the function. Here are all the parts of a function −
-
-* **Arguments** − The argument(s) establish the linkage between the calling program and the function identifiers and also called the formal parameters. A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter. This value is referred to as actual parameter or argument. The parameter list refers to the type, order, and number of parameters of a function. Use of such formal parameters is optional. These parameters may have standard data type, user-defined data type or subrange data type.
- * The formal parameters list appearing in the function statement could be simple or subscripted variables, arrays or structured variables, or subprograms.
-* **Return Type** − **All functions must return a value**, so all functions must be assigned a type. The function-type is the data type of the value the function returns. It may be standard, user-defined scalar or subrange type but it cannot be structured type.
-* **Local declarations** − Local declarations refer to the declarations for labels, constants, variables, functions and procedures, which are application to the body of function only.
-* **Function Body** − The function body contains a collection of statements that define what the function does. It should always be enclosed between the reserved words begin and end. It is the part of a function where all computations are done. There must be an assignment statement of the type - name := expression; in the function body that assigns a value to the function name. This value is returned as and when the function is executed. The last statement in the body must be an end statement.
-* **Function Declaration**: A function declaration tells the compiler about a function name and how to call the function. The actual body of the function can be defined separately.
-* **Calling a function**: While creating a function, you give a definition of what the function has to do. To use a function, you will have to call that function to perform the defined task. When a program calls a function, program control is transferred to the called function. A called function performs defined task, and when its return statement is executed or when it last end statement is reached, it returns program control back to the main program.
-* To call a function, you simply need to pass the required parameters along with function name, and if function returns a value, then you can store returned value. 
+A function definition in Pascal consists of a **function header, local declarations and a function body**. The function header consists of the keyword function and a name given to the function. 
 
 The following example shows how a function is defined, declared and called:
 
@@ -400,6 +395,8 @@ A procedure definition in Pascal consists of a header, local declarations and a 
 * Procedure Body − The procedure body contains a collection of statements that define what the procedure does. It should always be enclosed between the reserved words begin and end. It is the part of a procedure where all computations are done.
 
 Following is the source code for a procedure called findMin(). This procedure takes 4 parameters x, y, z and m and stores the minimum among the first three variables in the variable named m. The variable m is passed by reference:
+
+![image](https://user-images.githubusercontent.com/91537105/149924148-983a2dbb-1571-4b4d-a596-f7d813ad978a.png)
 
 The following video is really helpful to outline the difference between Functions and Procedures:
 
