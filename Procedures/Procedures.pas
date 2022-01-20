@@ -52,10 +52,12 @@ DisplayHeading2(sHeading);
 end;
 
 procedure TForm1.Button3Click(Sender: TObject);
+var sFilePath : string;
 begin
+sFilepath:= Inputbox('Heading', 'Please enter your file path:', ''); //Pop up button will ask for the file path for your text file.
 DisplayHeading2('Data from Textfile');
 
-LoadTextFile('C:\Users\rhysj\Programming\LearnPascal\Procedures\Data.txt'); //save the readme file with the source code and add your path here
+LoadTextFile(sFilepath);
 end;
 
 // Step 2: Write your procedure code
