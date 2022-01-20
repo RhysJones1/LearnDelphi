@@ -1,5 +1,4 @@
-{The following program contains procedures using the
-VCL forms}
+{The following program contains procedures using the VCL forms and importing text files}
 
 unit Procedures;
 
