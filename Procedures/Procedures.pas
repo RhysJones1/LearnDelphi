@@ -55,7 +55,7 @@ procedure TForm1.Button3Click(Sender: TObject);
 begin
 DisplayHeading2('Data from Textfile');
 
-LoadTextFile('C:\Users\rhysj\Programming\LearnPascal\Procedures\Data.txt');
+LoadTextFile('C:\Users\rhysj\Programming\LearnPascal\Procedures\Data.txt'); //save the readme file with the source code and add your path here
 end;
 
 // Step 2: Write your procedure code
