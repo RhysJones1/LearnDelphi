@@ -54,7 +54,7 @@ end;
 procedure TForm1.Button3Click(Sender: TObject);
 var sFilePath : string;
 begin
-sFilepath:= Inputbox('Heading', 'Please enter your file path:', ''); //Pop up button will ask for the file path for your text file.
+sFilepath:= Inputbox('File Path', 'Please enter your file path:', ''); //Pop up button will ask for the file path for your text file.
 DisplayHeading2('Data from Textfile');
 
 LoadTextFile(sFilepath);
