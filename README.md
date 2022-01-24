@@ -415,3 +415,6 @@ https://www.youtube.com/channel/UCPQG0dcSGvOP20NLcjnYTPQ
 ### Declare your function 
 
 Max3 function: See folder for source code
+
+![image](https://user-images.githubusercontent.com/91537105/150771419-3d6db133-bfa4-4a3e-933c-46565945ffd0.png)
+
