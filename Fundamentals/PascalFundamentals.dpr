@@ -219,7 +219,7 @@ begin
    end;
 
 // You can also use ranges of values like this
-// ‘a’..’z’: Which matches for any letter
+// â€˜aâ€™..â€™zâ€™: Which matches for any letter
 
   // ----- ARRAYS -----
 
