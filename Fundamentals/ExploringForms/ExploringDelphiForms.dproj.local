@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/02/11 15:26:28.349,=C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/11 15:29:11.691,C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\ExploringDelphiForms.dproj=C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/02/11 15:29:30.120,C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\frmMain_u.pas=C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/11 15:29:30.120,C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\frmMain_u.dfm=C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/02/11 15:33:36.702,C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\frmMain_u.dfm=C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\frmMain_u.dfm</Transaction>
+    <Transaction>2022/02/11 15:33:36.702,C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\frmMain_u.pas=C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\frmMain_u.pas</Transaction>
+    <Transaction>2022/02/11 15:33:47.034,C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\ExploringDelphiForms.dproj=C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\ExploringDelphiForms.dproj</Transaction>
+    <Transaction>2022/02/11 15:34:52.763,=C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\Unit1.pas</Transaction>
+    <Transaction>2022/02/11 15:35:25.251,C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\frmAnother_u.dfm=C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\Unit1.dfm</Transaction>
+    <Transaction>2022/02/11 15:35:25.251,C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\frmAnother_u.pas=C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\Unit1.pas</Transaction>
+    <Transaction>2022/02/11 15:42:33.134,=C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\Unit1.pas</Transaction>
+    <Transaction>2022/02/11 15:42:48.612,C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\frmOneMore_u.dfm=C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\Unit1.dfm</Transaction>
+    <Transaction>2022/02/11 15:42:48.612,C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\frmOneMore_u.pas=C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\Unit1.pas</Transaction>
+    <Transaction>2022/02/11 16:00:06.666,=C:\Users\rhysj\Programming\LearnPascal\DelphiBasics\ExploringForms\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
