@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/19 11:46:44.000.181,=C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/19 11:47:40.000.616,C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\rhysj\Programming\LearnPascal\Procedures\Procedures.pas</Transaction>
+    <Transaction>2022/01/19 11:47:40.000.616,C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\rhysj\Programming\LearnPascal\Procedures\Procedures.dfm</Transaction>
+    <Transaction>2022/01/20 08:45:15.000.358,C:\Users\rhysj\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\rhysj\Programming\LearnPascal\Procedures\Project1.dproj</Transaction>
+    <Transaction>2022/01/20 08:50:03.000.949,C:\Users\rhysj\Programming\LearnPascal\Procedures\Project1.dproj=C:\Users\rhysj\Programming\LearnPascal\Procedures\Project1.dproj</Transaction>
+    <Transaction>2022/01/20 09:40:49.000.951,C:\Users\rhysj\Programming\LearnPascal\Procedures\Project1.dproj=C:\Users\rhysj\Programming\LearnPascal\Procedures\Project1.dproj</Transaction>
+    <Transaction>2022/01/20 09:59:22.000.798,C:\Users\rhysj\Programming\LearnPascal\Procedures\Project1.dproj=C:\Users\rhysj\Programming\LearnPascal\Procedures\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
