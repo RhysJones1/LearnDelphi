@@ -1,0 +1,96 @@
+unit frmContact_u;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.Samples.Spin, Vcl.ComCtrls, Vcl.Imaging.jpeg;
+
+type
+  TfrmContact = class(TForm)
+    pnlHeader: TPanel;
+    pnlPersonalInformation: TPanel;
+    pnlAddressInformation: TPanel;
+    pnlContactInformation: TPanel;
+    pnlActions: TPanel;
+    btnDisplay: TButton;
+    bnbClose: TBitBtn;
+    bnbReset: TBitBtn;
+    lblFirstName: TLabel;
+    lblSurname: TLabel;
+    lblGender: TLabel;
+    lblAge: TLabel;
+    lblStreet: TLabel;
+    lblCity: TLabel;
+    lblCountry: TLabel;
+    lblPostCode: TLabel;
+    lblTelephone: TLabel;
+    lblEmail: TLabel;
+    edtFirstName: TEdit;
+    edtSurname: TEdit;
+    edtStreet: TEdit;
+    edtCity: TEdit;
+    edtCountry: TEdit;
+    edtPostCode: TEdit;
+    edtTelephone: TEdit;
+    edtEmail: TEdit;
+    cbxGender: TComboBox;
+    sedAge: TSpinEdit;
+    dteDOB: TDateTimePicker;
+    lblDOB: TLabel;
+    imgPhoto: TImage;
+    chkSendNewsletter: TCheckBox;
+    redOutput: TRichEdit;
+
+    // Procedures for Display Button
+    procedure btnDisplayClick(Sender: TObject);
+    procedure btnDisplayMouseEnter(Sender: TObject);
+    procedure btnDisplayMouseLeave(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmContact: TfrmContact;
+
+implementation
+
+{$R *.dfm}
+
+    (**************************************
+     Procedure for the Display Button.
+     On click it will display our results
+     **************************************)
+procedure TfrmContact.btnDisplayClick(Sender: TObject);
+begin
+ShowMessage('You clicked on the Display Button');
+end;
+
+
+   (**************************************
+     Procedure for the Display Button
+     On mouse hover the caption changes to
+     give the user more information
+     **************************************)
+
+procedure TfrmContact.btnDisplayMouseEnter(Sender: TObject);
+begin
+btnDisplay.caption := 'Click to Display';
+end;
+
+      (**************************************
+     Procedure for the Display Button
+     On mouse removal the caption returns
+     back to original caption
+     **************************************)
+
+procedure TfrmContact.btnDisplayMouseLeave(Sender: TObject);
+begin
+btnDisplay.caption := 'Display';
+end;
+
+end.

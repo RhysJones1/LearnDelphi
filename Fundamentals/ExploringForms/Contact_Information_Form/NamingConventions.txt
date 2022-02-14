@@ -1,0 +1,61 @@
+Delphi enforces a few rules when assigning these names:
+
+* A name must be a single word (no spaces) 
+* name cannot start with a number 
+* A name cannot contain special characters, i.e. * / - # @
+* A name must be unique in its context.  
+
+In many programming languages, including Delphi, we also apply a naming convention.
+A naming convention is a set of conventional “rules” for choosing the character
+sequence to be used for names in source code and documentation.
+
+The reasons for using a naming convention include the following: 
+
+* to reduce the effort needed to read and understand source code 
+* to enable code reviewers to focus on more important issues than arguing over syntax and naming standards
+* to enable code quality review tools to focus their reporting mainly on significant issues other than syntax and style preferences
+* to enhance source code appearance (for example, by unclear abbreviations).  
+
+A widely-used convention is the Hungarian Naming Notation:  - 
+
+* start a name with a prefix to describe the type (class)
+* after the prefix, use a descriptive name that resembles the purpose
+* the whole name must be assigned in camel case   
+
+Hungarian Naming Notation is used to make our code more readable and easy to understand. 
+
+Form: frm
+Panel: pnl
+Label: lbl
+Edit: edt
+Combo Box: cbx
+SpinEdit: sed
+Image: img
+CheckBox: chk
+RichEdit: red
+Buttons: btn
+BitMapButtons: bmb
+Timere: tmr
+Memo: mem
+RadioButton: rad
+GroupBox: grp
+Shape: shp
+
+Add Camel Case notation to after the prefix for example:
+
+Form: frmContact
+Panel: pnlPersonalInformation
+Label: lblFirstName
+Edit: edtSecondName
+Combo Box: cbxGender
+SpinEdit: sedAge
+Image: imgPhoto
+CheckBox: chkSendNewsLetter
+RichEdit: redOutput
+Buttons: btnDisplay
+BitMapButtons: bmbClose
+Timer: tmrClock
+Memo: memSummary
+RadioButton: radPaid
+GroupBox: grpPayment Methods
+Shape: shpCircle
