@@ -4,6 +4,10 @@
  previous forms as I wanted to produce something
  a little closer to what a form would look like
  in the real world.
+ 
+ I've also focused on naming conventions to help
+ make it easier to write code with forms adopting
+ Hungarian Naming Convention and camelCase.
 ************************************************)
 
 
