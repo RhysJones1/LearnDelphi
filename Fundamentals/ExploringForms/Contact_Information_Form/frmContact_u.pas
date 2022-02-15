@@ -54,6 +54,8 @@ type
     procedure btnDisplayClick(Sender: TObject);
     procedure btnDisplayMouseEnter(Sender: TObject);
     procedure btnDisplayMouseLeave(Sender: TObject);
+    
+    // Procedure for Reset Button
     procedure bnbResetClick(Sender: TObject);
 
   private
