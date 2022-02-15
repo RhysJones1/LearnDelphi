@@ -110,6 +110,7 @@ redOutput.Lines.Add('Displaying Customer Information for ' + edtFirstName.Text
                      + ' ' + edtSurname.Text);
 redOutput.Lines.Add('--------------------------------------------------------');
 redOutput.Lines.Add('Gender: ' + cbxGender.Text);
+redOutput.Lines.Add('Age: ' + IntToStr(sedAge.Value));
 redOutput.Lines.Add('Address: ' + edtStreet.Text + ', ' + edtCity.Text+ ', '
                      + edtCountry.Text + ', ' + edtPostCode.Text);
 redOutput.Lines.Add('Telephone: ' + edtTelephone.Text);
