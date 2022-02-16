@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899 12 30 00:00:00.000.899,C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\ASCIICharacters_u.dfm</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.793,=C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.899,C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\ASCIICharacters_u.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.475,C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\ASCIICharacters_u.pas=C:\DELPHI\LearnDelphi Project Files\TryOuts\Module 11.1\ASCIICharacters_u.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.475,C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\ASCIICharacters_u.dfm=C:\DELPHI\LearnDelphi Project Files\TryOuts\Module 11.1\ASCIICharacters_u.dfm</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.748,C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\ASCIICharacters_p.dproj</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.862,C:\Users\pc 1689\Documents\Embarcadero\Studio\Projects\ASCIICharacters_p.dproj=C:\DELPHI\LearnDelphi Project Files\TryOuts\Module 11.1\ASCIICharacters_p.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
