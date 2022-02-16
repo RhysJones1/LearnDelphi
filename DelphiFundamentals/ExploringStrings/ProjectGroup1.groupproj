@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{83ABAFA2-F0F8-4107-B308-35576E91C5AE}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ExploringStringVariables.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\..\..\Downloads\MasteringDelphi7-master\MasteringDelphi7\12\FirstCom\FirstCom.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ExploringStringVariables">
+        <MSBuild Projects="ExploringStringVariables.dproj"/>
+    </Target>
+    <Target Name="ExploringStringVariables:Clean">
+        <MSBuild Projects="ExploringStringVariables.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExploringStringVariables:Make">
+        <MSBuild Projects="ExploringStringVariables.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FirstCom">
+        <MSBuild Projects="..\..\..\..\..\Downloads\MasteringDelphi7-master\MasteringDelphi7\12\FirstCom\FirstCom.dproj"/>
+    </Target>
+    <Target Name="FirstCom:Clean">
+        <MSBuild Projects="..\..\..\..\..\Downloads\MasteringDelphi7-master\MasteringDelphi7\12\FirstCom\FirstCom.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FirstCom:Make">
+        <MSBuild Projects="..\..\..\..\..\Downloads\MasteringDelphi7-master\MasteringDelphi7\12\FirstCom\FirstCom.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ExploringStringVariables;FirstCom"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ExploringStringVariables:Clean;FirstCom:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ExploringStringVariables:Make;FirstCom:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,20 @@
+Procedures and Functions
+
+* Both are predefined executable pieces of code.
+
+* Both can have zero to more parameters
+
+**Functions**
+
+Always return the result to the caller for example:
+
+```strUpper := UpperCase(strInputString);```
+
+**Procedures**
+
+ShowMessage(strMessage);
+
+It does it's work in the background but doesn't return it's
+result to the caller
+
+ 

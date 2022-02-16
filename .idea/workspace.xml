@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6e8115c-a3da-415a-9f2c-6602de480881" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch1/AgeTest/age1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch1/AgeTest/age1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch1/AgeTest/age1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch1/AgeTest/age1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch1/AgeTest/agetest.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch1/AgeTest/agetest.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/advconsts.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/advconsts.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/advobs.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/advobs.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/wombat.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/wombat.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/wombat.dproj" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/wombat.dproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/wombat.dproj.local" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/wombat.dproj.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/wombat.identcache" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/wombat.identcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/wombat_Icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/wombat_Icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/wombatmain.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/wombatmain.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch10/Wombat/wombatmain.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch10/Wombat/wombatmain.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Cash/cash.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Cash/cash.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Cash/cash1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Cash/cash1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Cash/cash1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Cash/cash1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Vars/VARUNIT1.DFM" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Vars/VARUNIT1.DFM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Vars/vars.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Vars/vars.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Vars/vars.dproj" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Vars/vars.dproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Vars/vars.dproj.local" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Vars/vars.dproj.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Vars/vars.identcache" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Vars/vars.identcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch2/Vars/varunit1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch2/Vars/varunit1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/Interest/interest.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/Interest/interest.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/Interest/intunit1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/Interest/intunit1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/Interest/intunit1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/Interest/intunit1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/Proc/PROCUNIT.DFM" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/Proc/PROCUNIT.DFM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/Proc/proc.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/Proc/proc.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/Proc/procunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/Proc/procunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/ProcFunc/pfunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/ProcFunc/pfunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/ProcFunc/pfunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/ProcFunc/pfunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/ProcFunc/procfunc.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/ProcFunc/procfunc.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/VarParam/varparam.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/VarParam/varparam.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/VarParam/vpunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/VarParam/vpunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch3/VarParam/vpunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch3/VarParam/vpunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Ops/ops.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Ops/ops.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Ops/ops1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Ops/ops1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Ops/ops1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Ops/ops1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Problem/problem.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Problem/problem.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Problem/probunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Problem/probunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Problem/probunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Problem/probunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Scope/scope.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Scope/scope.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Scope/scopunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Scope/scopunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Scope/scopunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Scope/scopunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Sonnet/SONNET1.DFM" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Sonnet/SONNET1.DFM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Sonnet/sonnet.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Sonnet/sonnet.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Sonnet/sonnet1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Sonnet/sonnet1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/TestVars/TestVars.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/TestVars/TestVars.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/TestVars/test1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/TestVars/test1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/TestVars/test1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/TestVars/test1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Trek/Starship.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Trek/Starship.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Trek/Starship.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Trek/Starship.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Trek/Trek.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Trek/Trek.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Types/types.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Types/types.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Types/typeunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Types/typeunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch4/Types/typeunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch4/Types/typeunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/Casetest/casetest.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/Casetest/casetest.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/Casetest/caseunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/Casetest/caseunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/Casetest/caseunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/Casetest/caseunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/Loops/loop1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/Loops/loop1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/Loops/loop1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/Loops/loop1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/Loops/loops.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/Loops/loops.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/arrays/arrays.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/arrays/arrays.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/arrays/arrays1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/arrays/arrays1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/arrays/arrays1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/arrays/arrays1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ascii/ascii.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ascii/ascii.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ascii/ascii1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ascii/ascii1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ascii/ascii1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ascii/ascii1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ascii2/ASC2UNIT.DFM" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ascii2/ASC2UNIT.DFM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ascii2/asc2unit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ascii2/asc2unit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ascii2/ascii2.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ascii2/ascii2.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ifelse/IFUNIT.DFM" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ifelse/IFUNIT.DFM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ifelse/ifelse.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ifelse/ifelse.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/ifelse/ifunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/ifelse/ifunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/washer/washer.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/washer/washer.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/washer/washunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/washer/washunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch5/washer/washunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch5/washer/washunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/CDRecs/cdrecs.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/CDRecs/cdrecs.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/CDRecs/cdunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/CDRecs/cdunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/CDRecs/cdunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/CDRecs/cdunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/CDdbase/MyCDs.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/CDdbase/MyCDs.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/CDdbase/cddbase.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/CDdbase/cddbase.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/CDdbase/recunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/CDdbase/recunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/CDdbase/recunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/CDdbase/recunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/EncryptDecrypt/Encrypt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/EncryptDecrypt/Encrypt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/EncryptDecrypt/encrypt.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/EncryptDecrypt/encrypt.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/EncryptDecrypt/encrypt_decrypt.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/EncryptDecrypt/encrypt_decrypt.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/EncryptDecrypt/textIO.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/EncryptDecrypt/textIO.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/EncryptDecrypt/textIO.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/EncryptDecrypt/textIO.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/TextRead/test1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/TextRead/test1.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/TextRead/test1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/TextRead/test1.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/TextRead/textread.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/TextRead/textread.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/UserType/usertype.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/UserType/usertype.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/UserType/utunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/UserType/utunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch6/UserType/utunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch6/UserType/utunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch7/Objects/objects.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch7/Objects/objects.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch7/Objects/obs.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch7/Objects/obs.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch7/Objects/obs.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch7/Objects/obs.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch7/Objects2/RecFile.sav" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch7/Objects2/RecFile.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch7/Objects2/objects2.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch7/Objects2/objects2.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch7/Objects2/obs2.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch7/Objects2/obs2.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch7/Objects2/obs2.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch7/Objects2/obs2.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookObs/bookobs.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookObs/bookobs.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookObs/books.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookObs/books.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookObs/books.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookObs/books.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookObs2/bookobs2.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookObs2/bookobs2.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookObs2/books2.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookObs2/books2.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookObs2/books2.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookObs2/books2.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookProb/bookp.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookProb/bookp.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookProb/bookp.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookProb/bookp.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/BookProb/bookprob.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/BookProb/bookprob.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/Properties/Properties.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/Properties/Properties.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/Properties/props.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/Properties/props.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch8/Properties/props.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch8/Properties/props.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch9/Buggy/bug.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch9/Buggy/bug.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch9/Buggy/bug.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch9/Buggy/bug.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch9/Buggy/buggy.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch9/Buggy/buggy.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch9/ConvEx/convEx.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch9/ConvEx/convEx.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch9/ConvEx/convunit.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch9/ConvEx/convunit.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiPascalSrc/Ch9/ConvEx/convunit.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiPascalSrc/Ch9/ConvEx/convunit.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelphiProgrammingForBeginners_ENG-CreativeCommons-LearnDelphi.org_.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/DelphiProgrammingForBeginners_ENG-CreativeCommons-LearnDelphi.org_.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloPlatform/HelloPlatform.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloPlatform.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloPlatform/HelloPlatform.dproj" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloPlatform.dproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloPlatform/HelloPlatform.identcache" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloPlatform.identcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloPlatform/HelloPlatform.res" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloPlatform.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloPlatform/HelloPlatformForm.fmx" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloPlatformForm.fmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloPlatform/HelloPlatformForm.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloPlatformForm.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloPlatform/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/HelloWorld.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloWorld/HelloWorld.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/HelloWorld.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloWorld/HelloWorld.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/HelloPlatform/HelloWorld/Readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Procedures.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Procedures.dfm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Procedures.pas" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Procedures.pas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Project1.dpr" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Project1.dpr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Project1.dproj" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Project1.dproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Project1.dproj.local" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Project1.dproj.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Project1.identcache" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Project1.identcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Project1.res" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Project1.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Win32/Data - Copy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Win32/Data - Copy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Win32/Debug/Procedures.dcu" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Win32/Debug/Procedures.dcu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedures/Win32/Debug/Project1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Procedures/Win32/Debug/Project1.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24xszLCUk0SpXS2ZCSgejSMY3CM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rhysj\IdeaProjects\Colmar Academy Website\LearnDelphi\Fundamentals" />
+      <recent name="C:\Users\rhysj\IdeaProjects\Colmar Academy Website\LearnDelphi\HelloPlatform" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6e8115c-a3da-415a-9f2c-6602de480881" name="Changes" comment="" />
+      <created>1644583844647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644583844647</updated>
+      <workItem from="1644583851835" duration="40000" />
+      <workItem from="1644583919814" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
