@@ -1,0 +1,183 @@
+  (***********************************************************
+   The purpose of this program is to explore String Variables.
+   A VCL form has been created to display the output and a
+   number of popular String methods will be used.
+
+   A number of String functions have been used such as:
+   Length, Concat, IntToStr, UpperCase, LowerCase, Trim,
+   Copy, Insert, Pos and Copy
+   **********************************************************)
+unit StringVariables_u;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmStringVariables = class(TForm)
+    edtPhrase: TEdit;
+    btnDisplayPangram: TButton;
+    btnUpperCase: TButton;
+    btnLowerCase: TButton;
+    btnInsert: TButton;
+    btnTrim: TButton;
+    pnlLength: TPanel;
+    btnStringReplace: TButton;
+    btnCopy: TButton;
+    pnlMessage: TPanel;
+    pnlLengthHeader: TPanel;
+    pnlMessageHeader: TPanel;
+
+    // Declare Button Procedures
+    procedure btnDisplayPangramClick(Sender: TObject);
+    procedure btnUpperCaseClick(Sender: TObject);
+    procedure btnLowerCaseClick(Sender: TObject);
+    procedure btnTrimClick(Sender: TObject);
+    procedure btnCopyClick(Sender: TObject);
+    procedure btnInsertClick(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmStringVariables: TfrmStringVariables;
+  strPhrase : String;
+  bteLetterCount : Byte;
+
+implementation
+
+{$R *.dfm}
+
+  (****************************************************
+   This procedure displays the default Pangram. We
+   also introduce the Length and Concat String Methods
+  *****************************************************)
+procedure TfrmStringVariables.btnDisplayPangramClick(Sender: TObject);
+const
+      PANGRAM = ' The quick brown fox jumps over the lazy dog ';
+      SPEED_OF_LIGHT = 299792458;
+var
+      strMessage : String;
+
+begin
+   edtPhrase.Text := PANGRAM;
+   strPhrase := edtPhrase.Text;
+   bteLetterCount := Length(strPhrase);
+   pnlLength.Caption := Concat('The phrase has ', IntToStr(bteLetterCount)
+                                                           , ' letters');
+   pnlMessage.Caption := Concat('Default phrase loaded in the speed of light ('
+                                , IntToStr(SPEED_OF_LIGHT), ' m/s)');
+end;
+
+(****************************************************
+   This procedure changes the display to all uppercase
+   using the UpperCase String method.
+  *****************************************************)
+procedure TfrmStringVariables.btnUpperCaseClick(Sender: TObject);
+begin
+   strPhrase := edtPhrase.Text;
+   edtPhrase.Text := UpperCase(strPhrase);
+   bteLetterCount := Length(strPhrase);
+   pnlLength.Caption := Concat('The phrase has ', IntToStr(bteLetterCount),
+                                                               ' letters');
+   pnlMessage.Caption := 'You formatted the text to UPPERCASE letters';
+
+end;
+
+  (****************************************************
+   This procedure changes the display to all lowercase
+   using the LowerCase String method.
+  *****************************************************)
+
+procedure TfrmStringVariables.btnLowerCaseClick(Sender: TObject);
+begin
+   strPhrase := edtPhrase.Text;
+   edtPhrase.Text := LowerCase(strPhrase);
+   //strPhrase := edtPhrase.Text;
+   bteLetterCount := Length(strPhrase);
+   pnlLength.Caption := Concat('The phrase has ', IntToStr(bteLetterCount)
+                               , ' letters');
+   pnlMessage.Caption := 'You formatted the text to LOWERCASE letters';
+end;
+
+  (********************************************
+   This procedure Trims the display using the
+   Trime String method.
+  *********************************************)
+procedure TfrmStringVariables.btnTrimClick(Sender: TObject);
+begin
+     strPhrase := edtPhrase.Text;
+     edtPhrase.Text := Trim(strPhrase);
+     strPhrase := edtPhrase.Text;
+     bteLetterCount := Length(strPhrase);
+     pnlLength.Caption := Concat('The phrase has ', IntToStr(bteLetterCount),
+                                                                 ' letters');
+     pnlMessage.Caption := 'You removed/trimmed trailing and leading spaces';
+end;
+
+  (****************************************************
+   This procedure copies a chosen word within the text
+   display using the Copy String method. We also use
+   Pos to generate the necessary paramters for the
+   Copy method to work and use Input Box to recieve
+   input from the user
+  *****************************************************)
+
+procedure TfrmStringVariables.btnCopyClick(Sender: TObject);
+var
+       strSelectedWord, strCopied : String;
+       bteCopyStartPos, bteCopyLength : Byte;
+begin
+       strPhrase := edtPhrase.Text;
+       bteLetterCount := Length(strPhrase);
+
+       strSelectedWord := InputBox('Copy',
+       'Which word do you want to copy? (WARNING: Case Sensitive)', 'dog');
+
+       // Copy needs positional paramters to work. The Pos method provides these
+       bteCopyStartPos := Pos(strSelectedWord, strPhrase);
+       bteCopyLength := Length(strSelectedWord);
+
+       // Copy method takes the chosen phrase, starting index and length
+       strCopied := Copy(strPhrase, bteCopyStartPos, bteCopyLength);
+       pnlLength.Caption := Concat('The phrase has ', IntToStr(bteLetterCount),
+                            ' letters');
+
+       pnlMessage.Caption := 'You copied ' + Concat('"', strCopied, '"');
+end;
+
+  (****************************************************
+   This procedure replaces a selected word with another
+   word
+  *****************************************************)
+procedure TfrmStringVariables.btnInsertClick(Sender: TObject);
+var
+   strPhrase, strStringToInsert : String;
+   bteLetterCount, btePositionToInsert : Byte;
+
+begin
+  strPhrase := edtPhrase.Text;
+  btePositionToInsert := Pos('fox', strPhrase);
+  strStringToInsert := InputBox('Insert', 'Insert a new word/phrase', 'sly');
+
+  // This procedure takes the out from Pos and InputBox to operate
+  Insert(strStringToInsert + ' ', strPhrase, btePositionToInsert);
+
+  pnlLength.Caption := Concat('The phrase has ', IntToStr(bteLetterCount),
+                              ' letters');
+  pnlMessage.Caption := Concat('You inserted "', strStringToInsert, '"',
+                              ' in position ', IntToStr(btePositionToInsert));
+end;
+
+
+
+end.
+
+
+
+

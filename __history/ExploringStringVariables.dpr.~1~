@@ -1,0 +1,14 @@
+program ExploringStringVariables;
+
+uses
+  Vcl.Forms,
+  StringVariables in 'StringVariables.pas' {frmStringVariables};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmStringVariables, frmStringVariables);
+  Application.Run;
+end.

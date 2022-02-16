@@ -1,0 +1,156 @@
+object frmStringVariables: TfrmStringVariables
+  Left = 0
+  Top = 0
+  Caption = 'An English pangram....'
+  ClientHeight = 164
+  ClientWidth = 680
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object edtPhrase: TEdit
+    Left = 8
+    Top = 72
+    Width = 666
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnDisplayPangram: TButton
+    Left = 8
+    Top = 24
+    Width = 90
+    Height = 25
+    Caption = 'Display Pangram'
+    TabOrder = 1
+    OnClick = btnDisplayPangramClick
+  end
+  object btnUpperCase: TButton
+    Left = 104
+    Top = 24
+    Width = 90
+    Height = 25
+    Caption = 'UpperCase'
+    TabOrder = 2
+    OnClick = btnUpperCaseClick
+  end
+  object btnLowerCase: TButton
+    Left = 200
+    Top = 24
+    Width = 90
+    Height = 25
+    Caption = 'LowerCase'
+    TabOrder = 3
+    OnClick = btnLowerCaseClick
+  end
+  object btnInsert: TButton
+    Left = 488
+    Top = 24
+    Width = 90
+    Height = 25
+    Caption = 'Insert'
+    TabOrder = 4
+  end
+  object btnTrim: TButton
+    Left = 296
+    Top = 24
+    Width = 90
+    Height = 25
+    Caption = 'Trim'
+    TabOrder = 5
+    OnClick = btnTrimClick
+  end
+  object pnlLength: TPanel
+    Left = 96
+    Top = 104
+    Width = 578
+    Height = 26
+    Alignment = taLeftJustify
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object btnStringReplace: TButton
+    Left = 584
+    Top = 24
+    Width = 90
+    Height = 25
+    Caption = 'StringReplace'
+    TabOrder = 7
+  end
+  object btnCopy: TButton
+    Left = 392
+    Top = 24
+    Width = 90
+    Height = 25
+    Caption = 'Copy'
+    TabOrder = 8
+    OnClick = btnCopyClick
+  end
+  object pnlMessage: TPanel
+    Left = 96
+    Top = 129
+    Width = 578
+    Height = 26
+    Alignment = taLeftJustify
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+  end
+  object pnlLengthHeader: TPanel
+    Left = 8
+    Top = 104
+    Width = 90
+    Height = 26
+    Alignment = taLeftJustify
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = 'Length:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+  end
+  object pnlMessageHeader: TPanel
+    Left = 8
+    Top = 129
+    Width = 90
+    Height = 26
+    Alignment = taLeftJustify
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = 'Message:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 11
+  end
+end
