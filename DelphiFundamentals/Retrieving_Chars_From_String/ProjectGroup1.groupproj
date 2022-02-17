@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{053B178E-14B2-4979-B183-C040EE37F2EE}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\ExploringCharacters\ASCIICharacters_p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CharacterFromString_p.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ASCIICharacters_p">
+        <MSBuild Projects="..\ExploringCharacters\ASCIICharacters_p.dproj"/>
+    </Target>
+    <Target Name="ASCIICharacters_p:Clean">
+        <MSBuild Projects="..\ExploringCharacters\ASCIICharacters_p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ASCIICharacters_p:Make">
+        <MSBuild Projects="..\ExploringCharacters\ASCIICharacters_p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CharacterFromString_p">
+        <MSBuild Projects="CharacterFromString_p.dproj"/>
+    </Target>
+    <Target Name="CharacterFromString_p:Clean">
+        <MSBuild Projects="CharacterFromString_p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CharacterFromString_p:Make">
+        <MSBuild Projects="CharacterFromString_p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ASCIICharacters_p;CharacterFromString_p"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ASCIICharacters_p:Clean;CharacterFromString_p:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ASCIICharacters_p:Make;CharacterFromString_p:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

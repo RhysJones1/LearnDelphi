@@ -1,0 +1,36 @@
+unit CharFromString_u;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Vcl.Samples.Spin;
+
+type
+  TfrmCharFromString = class(TForm)
+    sedCharPosition: TSpinEdit;
+    lblCharPosition: TLabel;
+    edtInput: TEdit;
+    pnlOutput: TPanel;
+    lblTypeAWord: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCharFromString: TfrmCharFromString;
+
+implementation
+
+{$R *.dfm}
+
+
+
+
+
+
+
+end.
