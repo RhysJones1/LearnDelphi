@@ -1,0 +1,51 @@
+unit ASCIICharacters_u;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmASCIICharacters = class(TForm)
+    pnlOutputs: TPanel;
+    sbrKeyInfo: TStatusBar;
+    lblCharacter: TLabel;
+    lblASCIIValue: TLabel;
+    redInput: TRichEdit;
+    procedure redInputKeyPress(Sender: TObject; var Key: Char);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmASCIICharacters: TfrmASCIICharacters;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TfrmASCIICharacters.redInputKeyPress(Sender: TObject; var Key: Char);
+var
+   chrKeyPressed : Char;
+   bteASCIICode : Byte;
+begin
+    //Input
+    chrKeyPressed := Key;
+
+    //Processing
+    bteASCIICode := Ord(Key);
+
+
+    //Output
+    lblCharacter.Caption := chrKeyPressed;
+    lblASCIIValue.Caption := 'ASCII: ' + IntToStr(bteASCIICode);
+    sbrKeyInfo.Panels[0].Text := 'You pressed the ' + #34 + chrKeyPressed + #34
+                                                                      + ' key';
+
+end;
+
+end.
