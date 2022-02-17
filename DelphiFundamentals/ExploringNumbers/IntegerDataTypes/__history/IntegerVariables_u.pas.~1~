@@ -1,0 +1,37 @@
+unit IntegerVariables_u;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TfrmExploringIntegers = class(TForm)
+    btnDisplayDetails: TButton;
+    pnlByte: TPanel;
+    pnlShortInt: TPanel;
+    pnlSmallInt: TPanel;
+    pnlInteger: TPanel;
+    pnlByteRange: TPanel;
+    pnlShortIntRange: TPanel;
+    pnlSmallIntRange: TPanel;
+    pnlIntegerRange: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmExploringIntegers: TfrmExploringIntegers;
+
+implementation
+
+{$R *.dfm}
+
+
+
+
+
+end.

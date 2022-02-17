@@ -1,0 +1,52 @@
+# Integer Types
+
+**Byte:** 
+
+Storage - 1 Byte
+Min - 0
+Max - 255
+
+**ShortInt:**
+
+Storage - 1 Byte
+Min - -127
+Max - 127
+
+**SmallInt:**
+
+Storage - 2 Bytes
+Min - -32 768
+Max - 32 767
+
+**Integer:**
+
+Storage - 4 Bytes 
+Min - -2 147 483 648
+Max - 2 147 483 647
+
+## Common Functions 
+
+**IntToStr**
+
+strAge := 'Your age is ' + IntToStr(bteAge);
+strScore := 'your score is ' + IntToStr(shtScore);
+strDistance := IntToStr(smlDistance) + ' miles';
+
+**StrToInt**
+
+bteAge := StrToInt('6');
+shtScore := StrToInt(edtScore.Text);
+smlDistance := StrToInt(strDistance);
+
+**Ordinal Types**
+
+This is a data type that is ordered, can be counted and can be 
+looped
+
+For example:
+
+Char(ASCII is 0 to 255)
+
+Ordinal types applies to all of the integer types we have just discussed.
+
+ 

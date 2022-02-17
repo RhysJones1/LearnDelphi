@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{491E2A4D-518F-4BD8-BAE8-6E76CC31B92B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\..\DelphiBasics\Limited_Length_Strings\ExploringFixedLengthStrings_p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ExploringIntegers_p.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ExploringFixedLengthStrings_p">
+        <MSBuild Projects="..\..\DelphiBasics\Limited_Length_Strings\ExploringFixedLengthStrings_p.dproj"/>
+    </Target>
+    <Target Name="ExploringFixedLengthStrings_p:Clean">
+        <MSBuild Projects="..\..\DelphiBasics\Limited_Length_Strings\ExploringFixedLengthStrings_p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExploringFixedLengthStrings_p:Make">
+        <MSBuild Projects="..\..\DelphiBasics\Limited_Length_Strings\ExploringFixedLengthStrings_p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExploringIntegers_p">
+        <MSBuild Projects="ExploringIntegers_p.dproj"/>
+    </Target>
+    <Target Name="ExploringIntegers_p:Clean">
+        <MSBuild Projects="ExploringIntegers_p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExploringIntegers_p:Make">
+        <MSBuild Projects="ExploringIntegers_p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ExploringFixedLengthStrings_p;ExploringIntegers_p"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ExploringFixedLengthStrings_p:Clean;ExploringIntegers_p:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ExploringFixedLengthStrings_p:Make;ExploringIntegers_p:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
