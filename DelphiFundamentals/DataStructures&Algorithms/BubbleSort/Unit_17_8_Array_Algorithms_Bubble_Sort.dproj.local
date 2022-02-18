@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/31 07:09:26.000.928,=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/01/31 07:10:14.000.215,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_17_8_Array_Algorithms_Bubble_Sort.dproj</Transaction>
+    <Transaction>2022/01/31 07:10:36.000.332,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Bubble_Sort.dfm</Transaction>
+    <Transaction>2022/01/31 07:10:36.000.332,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Bubble_Sort.pas</Transaction>
+    <Transaction>2022/01/31 09:58:21.000.798,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Bubble_Sort.pas=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 17.8 - Bubble Sort\Bubble_Sort.pas</Transaction>
+    <Transaction>2022/01/31 09:58:21.000.798,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Bubble_Sort.dfm=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 17.8 - Bubble Sort\Bubble_Sort.dfm</Transaction>
+    <Transaction>2022/01/31 09:58:24.000.247,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_17_8_Array_Algorithms_Bubble_Sort.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 17.8 - Bubble Sort\Unit_17_8_Array_Algorithms_Bubble_Sort.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

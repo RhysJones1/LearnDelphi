@@ -1,0 +1,134 @@
+object frmMathQuiz: TfrmMathQuiz
+  Left = 0
+  Top = 0
+  Caption = 'Math Quiz'
+  ClientHeight = 229
+  ClientWidth = 843
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 215
+    Top = 100
+    Width = 18
+    Height = 33
+    AutoSize = False
+    Caption = '='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblQuestionNumber: TLabel
+    Left = 263
+    Top = 8
+    Width = 274
+    Height = 33
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'MATH QUIZ'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object pnlMathQuiz: TPanel
+    Left = 24
+    Top = 96
+    Width = 185
+    Height = 41
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object pnlInfo: TPanel
+    Left = 327
+    Top = 96
+    Width = 476
+    Height = 41
+    BevelInner = bvLowered
+    Caption = 'Click '#39'Start'#39' to begin quiz'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object pnlScore: TPanel
+    Left = 648
+    Top = 25
+    Width = 155
+    Height = 41
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnNext: TButton
+    Left = 608
+    Top = 163
+    Width = 195
+    Height = 41
+    Caption = 'Start'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnNextClick
+  end
+  object sedUserAnswer: TSpinEdit
+    Left = 239
+    Top = 97
+    Width = 82
+    Height = 43
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    MaxValue = 144
+    MinValue = -20
+    ParentFont = False
+    TabOrder = 4
+    Value = 0
+    OnExit = sedUserAnswerExit
+  end
+  object pnlAssessment: TPanel
+    Left = 24
+    Top = 162
+    Width = 539
+    Height = 41
+    BevelInner = bvLowered
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    Visible = False
+  end
+end

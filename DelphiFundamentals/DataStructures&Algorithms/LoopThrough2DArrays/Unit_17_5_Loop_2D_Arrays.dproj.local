@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/08 06:34:34.000.796,=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/08 06:35:31.000.471,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_17_3_Exploring_2D_Arrays.dproj</Transaction>
+    <Transaction>2021/11/08 06:35:54.000.149,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\InterCityDistances.dfm</Transaction>
+    <Transaction>2021/11/08 06:35:54.000.149,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\InterCityDistances.pas</Transaction>
+    <Transaction>2021/11/08 07:15:48.000.619,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\InterCityDistances.dfm=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 14.4 - Exploring 2D Arrays\InterCityDistances.dfm</Transaction>
+    <Transaction>2021/11/08 07:15:48.000.619,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\InterCityDistances.pas=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 14.4 - Exploring 2D Arrays\InterCityDistances.pas</Transaction>
+    <Transaction>2021/11/08 07:15:51.000.710,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_17_3_Exploring_2D_Arrays.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 14.4 - Exploring 2D Arrays\Unit_17_3_Exploring_2D_Arrays.dproj</Transaction>
+    <Transaction>2021/11/18 06:51:57.000.856,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 14.4 - Exploring 2D Arrays\Unit_17_4_Exploring_2D_Arrays.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 14.4 - Exploring 2D Arrays\Unit_17_3_Exploring_2D_Arrays.dproj</Transaction>
+    <Transaction>2021/11/20 07:22:05.000.655,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 17\Unit 17.5 - Loop Through 2D Arrays with Nested Loops\Solution\Unit_17_4_Exploring_2D_Arrays.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 17\Unit 17.5 - Loop Through 2D Arrays with Nested Loops\Solution\Unit_17_5_Loop_2D_Arrays.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

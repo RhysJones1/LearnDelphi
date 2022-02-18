@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/10 08:33:52.000.561,=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/10/10 08:35:21.000.937,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_17_1_Exploring_Arrays.dproj</Transaction>
+    <Transaction>2021/10/10 08:36:11.000.517,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Exploring_Arrays.pas</Transaction>
+    <Transaction>2021/10/10 08:36:11.000.517,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Exploring_Arrays.dfm</Transaction>
+    <Transaction>2021/10/11 09:45:06.000.071,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Exploring_Arrays.pas=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 17.1 - Introduction to Arrays\Exploring_Arrays.pas</Transaction>
+    <Transaction>2021/10/11 09:45:06.000.071,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Exploring_Arrays.dfm=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 17.1 - Introduction to Arrays\Exploring_Arrays.dfm</Transaction>
+    <Transaction>2021/10/11 09:45:10.000.413,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_17_1_Exploring_Arrays.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 17.1 - Introduction to Arrays\Unit_17_1_Exploring_Arrays.dproj</Transaction>
+    <Transaction>2021/11/07 07:25:34.976,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 17\Unit 17.2\Solution\Unit_17_2_Looping_through_Arrays.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 17\Unit 17.2\Solution\Unit_17_1_Exploring_Arrays.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
