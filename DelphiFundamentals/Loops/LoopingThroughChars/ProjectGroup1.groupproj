@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8780D280-0828-40AB-BD8C-5447B8A7268D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\..\..\..\..\..\Downloads\[Download] - Module 16 - Unit 16.3 - Repetition Statements with For-Loops ( Part 3) - Looping Through Characters\Unit 16.3\Solution\Unit_16_3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\..\..\..\Downloads\[Download] - Module 16 - Unit 16.4 - Repetition Statements with For-Loops  - Looping Through Characters (Part 2)\Unit 16.4\Solution\Unit_16_4.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Unit_16_3">
+        <MSBuild Projects="..\..\..\..\..\..\Downloads\[Download] - Module 16 - Unit 16.3 - Repetition Statements with For-Loops ( Part 3) - Looping Through Characters\Unit 16.3\Solution\Unit_16_3.dproj"/>
+    </Target>
+    <Target Name="Unit_16_3:Clean">
+        <MSBuild Projects="..\..\..\..\..\..\Downloads\[Download] - Module 16 - Unit 16.3 - Repetition Statements with For-Loops ( Part 3) - Looping Through Characters\Unit 16.3\Solution\Unit_16_3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Unit_16_3:Make">
+        <MSBuild Projects="..\..\..\..\..\..\Downloads\[Download] - Module 16 - Unit 16.3 - Repetition Statements with For-Loops ( Part 3) - Looping Through Characters\Unit 16.3\Solution\Unit_16_3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Unit_16_4">
+        <MSBuild Projects="..\..\..\..\..\..\Downloads\[Download] - Module 16 - Unit 16.4 - Repetition Statements with For-Loops  - Looping Through Characters (Part 2)\Unit 16.4\Solution\Unit_16_4.dproj"/>
+    </Target>
+    <Target Name="Unit_16_4:Clean">
+        <MSBuild Projects="..\..\..\..\..\..\Downloads\[Download] - Module 16 - Unit 16.4 - Repetition Statements with For-Loops  - Looping Through Characters (Part 2)\Unit 16.4\Solution\Unit_16_4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Unit_16_4:Make">
+        <MSBuild Projects="..\..\..\..\..\..\Downloads\[Download] - Module 16 - Unit 16.4 - Repetition Statements with For-Loops  - Looping Through Characters (Part 2)\Unit 16.4\Solution\Unit_16_4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Unit_16_3;Unit_16_4"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Unit_16_3:Clean;Unit_16_4:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Unit_16_3:Make;Unit_16_4:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

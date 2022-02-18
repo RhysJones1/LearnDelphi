@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/04 05:18:05.000.542,=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/04 05:18:34.000.610,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_16_7.dproj</Transaction>
+    <Transaction>2021/08/04 05:18:57.000.681,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\While_Loop.dfm</Transaction>
+    <Transaction>2021/08/04 05:18:57.000.681,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\While_Loop.pas</Transaction>
+    <Transaction>2021/08/04 05:21:21.000.982,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\While_Loop.dfm=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.7 - While Loops\While_Loop.dfm</Transaction>
+    <Transaction>2021/08/04 05:21:21.000.982,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\While_Loop.pas=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.7 - While Loops\While_Loop.pas</Transaction>
+    <Transaction>2021/08/04 05:21:26.000.474,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_16_7.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.7 - While Loops\Unit_16_7.dproj</Transaction>
+    <Transaction>2021/09/18 06:43:31.000.904,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.8\Solution\Unit_16_7.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.8\Solution\Unit_16_8.dproj</Transaction>
+    <Transaction>2021/09/18 06:43:55.000.662,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.8\Solution\While_Loop.pas=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.8\Solution\Repeat_Until_Loop.pas</Transaction>
+    <Transaction>2021/09/18 06:43:55.000.662,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.8\Solution\While_Loop.dfm=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.8\Solution\Repeat_Until_Loop.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

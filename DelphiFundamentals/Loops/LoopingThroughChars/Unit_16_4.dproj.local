@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/21 06:48:15.000.968,=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/06/21 06:48:58.000.203,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_16_1.dproj=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/06/21 06:49:34.000.767,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\BasicForLoops.dfm=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/06/21 06:49:34.000.767,C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\BasicForLoops.pas=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/06/21 07:05:57.000.334,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.1\BasicForLoops.pas=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\BasicForLoops.pas</Transaction>
+    <Transaction>2021/06/21 07:05:57.000.334,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.1\BasicForLoops.dfm=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\BasicForLoops.dfm</Transaction>
+    <Transaction>2021/06/21 07:06:01.000.319,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.1\Unit_16_1.dproj=C:\Users\Pc-2091\Documents\Embarcadero\Studio\Projects\Unit_16_1.dproj</Transaction>
+    <Transaction>2021/07/05 08:34:41.000.587,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.2\Solution\Unit_16_2.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.2\Solution\Unit_16_1.dproj</Transaction>
+    <Transaction>2021/07/20 05:46:38.000.703,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.3\Unit_16_2.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.3\Unit_16_3.dproj</Transaction>
+    <Transaction>2021/07/20 05:47:01.000.219,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.3\BasicForLoops.pas=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.3\LoopingCharacters.pas</Transaction>
+    <Transaction>2021/07/20 05:47:01.000.219,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.3\BasicForLoops.dfm=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\TryOuts\Module 16.3\LoopingCharacters.dfm</Transaction>
+    <Transaction>2021/07/22 22:49:24.000.648,D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.4\Solution\Unit_16_3.dproj=D:\YOUTUBE\LEARNDELPHI\LearnDelphi Project Files\Module 16\Unit 16.4\Solution\Unit_16_4.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
