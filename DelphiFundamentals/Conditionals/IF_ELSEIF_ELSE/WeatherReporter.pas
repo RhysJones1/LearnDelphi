@@ -37,43 +37,46 @@ procedure TfrmWeatherReporter.btnPredictClick(Sender: TObject);
 var
    strSignal : String;
 begin
-   strSignal := cboMode.Text + ' ' + cboColour.Text;
-   tmrFlashing.Enabled := false;
+  with pnlWeather do
+  begin
+    strSignal := cboMode.Text + ' ' + cboColour.Text;
+    tmrFlashing.Enabled := false;
    if (strSignal = 'Steady Blue') then
    begin
-      pnlWeather.Caption := strSignal + ' - Clear View';
-      pnlWeather.Font.Color := clBlue;
-      pnlWeather.Color := clWhite;
+    Caption := strSignal + ' - Clear View';
+    Font.Color := clBlue;
+    Color := clWhite;
    end
    else
    if (strSignal = 'Flashing Blue') then
    begin
-     pnlWeather.Caption := strSignal + ' - Clouds Due';
-     pnlWeather.Font.Color := clWhite;
-     pnlWeather.Color := clBlue;
+     Caption := strSignal + ' - Clouds Due';
+     Font.Color := clWhite;
+     Color := clBlue;
      tmrFlashing.Enabled := true;
    end
    else
    if (strSignal = 'Steady Red') then
    begin
-     pnlWeather.Caption := strSignal + ' - Rain Ahead';
-     pnlWeather.Font.Color := clRed;
-     pnlWeather.Color := clWhite;
+     Caption := strSignal + ' - Rain Ahead';
+     Font.Color := clRed;
+     Color := clWhite;
    end
    else
    if (strSignal = 'Flashing Red') then
    begin
-     pnlWeather.Caption := strSignal + ' - Snow Instead';
-     pnlWeather.Font.Color := clWhite;
-     pnlWeather.Color := clRed;
+     Caption := strSignal + ' - Snow Instead';
+     Font.Color := clWhite;
+     Color := clRed;
      tmrFlashing.Enabled := true;
    end
    else
    begin
-     pnlWeather.Caption := 'Broken Light';
-     pnlWeather.Color := clYellow;
-     pnlWeather.Font.Color := clBlack;
-     tmrFlashing.Enabled := true;
+     Caption := 'Broken Light';
+     Color := clYellow;
+     Font.Color := clBlack;
+     Enabled := true;
+   end;
    end;
 
 
