@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1273212D-3D48-4F62-846D-B8D77379774C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Firstdll.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Callfrst.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Firstdll">
+        <MSBuild Projects="Firstdll.dproj"/>
+    </Target>
+    <Target Name="Firstdll:Clean">
+        <MSBuild Projects="Firstdll.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Firstdll:Make">
+        <MSBuild Projects="Firstdll.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Callfrst">
+        <MSBuild Projects="Callfrst.dproj"/>
+    </Target>
+    <Target Name="Callfrst:Clean">
+        <MSBuild Projects="Callfrst.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Callfrst:Make">
+        <MSBuild Projects="Callfrst.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Firstdll;Callfrst"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Firstdll:Clean;Callfrst:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Firstdll:Make;Callfrst:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
