@@ -1,4 +1,0 @@
-{TODO : Having trouble connecting to DC3A from delphi}
-{TODO : How do we do conditions with SQL statements for example 'If title number is found show message found, if it isn't found show a different message}
-{TODO :Emails: How do we ping an email to the chosen email address?}
-{TODO : Clarify Remove: Do we also need to delete it from the monitoring table?}
